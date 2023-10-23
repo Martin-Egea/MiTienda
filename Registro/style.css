@@ -1,0 +1,32 @@
+body{
+    background-color: #262626;
+    color: rgb(220, 234, 247);
+    font-family: Arial, Helvetica, sans-serif;
+}
+.frm-container{
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    top: 20%;
+    left: 40%;
+    width: 20rem;
+    background-color: #5251517a;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    border-radius: 20px;
+    border: #646363;
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+}
+.btnConfirmar{
+    display: flex;
+    justify-content: flex-end;    
+}
+.inputConfirmar{
+    color: rgb(220, 234, 247);
+    border-radius: 10%;
+    background-color: rgba(4, 184, 4, 0.74);
+    font-weight: bolder;
+}
+.inputConfirmar:hover{
+    background-color: rgba(0, 156, 0, 0.596);
+}
