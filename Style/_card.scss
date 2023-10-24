@@ -1,5 +1,5 @@
-.card{
-    max-width: 380px;
+.cardCustom{
+    max-width: 400px;
     padding: 2rem;
     background-color: $color-sec;
     border-radius: 20px;
@@ -16,7 +16,7 @@
 
     .card-footer{
         display: flex;
-        margin-top: 2rem;
+        margin-top: 1rem;
         justify-content: space-between;
     }
 }

@@ -1,34 +1,34 @@
 .container {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(20rem, 1fr));
-  gap: 5rem;
+  grid-template-columns: repeat(auto-fill, minmax(25rem, 1fr));
+  gap: 2rem;
   grid-auto-flow: column wrap;
   margin: 3rem;
 }
 
-.card {
-  max-width: 380px;
+.cardCustom {
+  max-width: 400px;
   padding: 2rem;
-  background-color: #404040;
+  background-color: #333a3f;
   border-radius: 20px;
   box-shadow: -11px 10px 5px 0px rgba(0, 0, 0, 0.37);
 }
-.card img {
+.cardCustom img {
   width: 100%;
 }
-.card .desc {
+.cardCustom .desc {
   margin-top: 2rem;
   font-size: smaller;
 }
-.card .card-footer {
+.cardCustom .card-footer {
   display: flex;
-  margin-top: 2rem;
+  margin-top: 1rem;
   justify-content: space-between;
 }
 
 .btn-add {
   width: 90px;
-  height: 20px;
+  height: 30px;
   border-radius: 5px;
   border: 0px;
   cursor: pointer;
