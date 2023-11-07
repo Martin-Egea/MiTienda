@@ -1,0 +1,51 @@
+[
+    {
+        "id": "1",
+        "titulo": "GeForce RTX 4090 ti",
+        "categoria": "componentePC",
+        "imagen": "https://http2.mlstatic.com/D_NQ_NP_702328-MLA54830808601_042023-O.webp",
+        "descripcion": "Este componente electrónico procesa la información que llega al dispositivo y los transforma en imágenes o videos para mostrarla visualmente. Es ideal para trabajar con aplicaciones gráficas ya que permite obtener imágenes más nítidas.",
+        "precio": "2885439"
+    },
+    {
+        "id": "2",
+        "titulo": "Intel Core i9-13900F",
+        "categoria": "componentePC",
+        "imagen": "https://http2.mlstatic.com/D_NQ_NP_2X_621372-MLA54898694492_042023-F.webp",
+        "descripcion": "Productividad y entretenimiento, todo disponible en tu computadora de escritorio. La superioridad tecnológica de INTEL es un beneficio para todo tipo de profesionales. Asegura el mejor rendimiento de las aplicaciones, de la transferencia de datos y la conexión con otros elementos tecnológicos.",
+        "precio": "951742"
+    },
+    {
+        "id": "3",
+        "titulo": "Ram Vengeance RGB 16GB",
+        "categoria": "componentePC",
+        "imagen": "https://http2.mlstatic.com/D_NQ_NP_2X_802470-MLA47962938028_102021-F.webp",
+        "descripcion": "Potenciá tu PC con su tecnología DDR4, mejorará el desempeño de tu equipo, ya que opera en 3 y 4 canales, generando mayor fluidez y velocidad en la transferencia de datos. ¡Optimizá al máximo el rendimiento de tu ordenador!",
+        "precio": "82119"
+    },
+    {
+        "id": "4",
+        "titulo": "Samsung Galaxy A04 128 GB",
+        "categoria": "telefono",
+        "imagen": "https://http2.mlstatic.com/D_NQ_NP_2X_615787-MLA53225354281_012023-F.webp",
+        "descripcion": "Doble cámara y más detalles sus 2 cámaras traseras de 50 Mpx/2 Mpx te permitirán tomar imágenes con más detalles y lograr efectos únicos como el famoso modo retrato de poca profundidad de campo.",
+        "precio": "103549"
+    },
+    {
+        "id": "5",
+        "titulo": "Moto G32 128gb 4 Gb Ram Gris",
+        "categoria": "telefono",
+        "imagen": "https://http2.mlstatic.com/D_NQ_NP_885487-MLA52731088598_122022-O.webp",
+        "descripcion": "Buena calidad de sonido con Dolby Atmos y buen espacio de almacenamiento de 128 GB. Batería duradera. Cámara con buen rendimiento en condiciones de buena iluminación. Procesador Snapdragon de buena calidad. Buena velocidad de carga y fluidez en las aplicaciones.",
+        "precio": "139999"
+    },
+    {
+        "id": "6",
+        "titulo": "TCL 403 32 GB mauve mist 2 GB RAM",
+        "categoria": "telefono",
+        "imagen": "https://http2.mlstatic.com/D_NQ_NP_905354-MLA69965826597_062023-O.webp",
+        "descripcion": "Momentos únicos, capturas reales. Capturá tus mejores momentos y revivilos cuando quieras con la cámara trasera de 8 Mpx.",
+        "precio": "44699"
+    }
+
+]

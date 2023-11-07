@@ -8,6 +8,6 @@ let cardContainer = document.getElementById('customCardHTML');
 
 window.addEventListener('load', ()=>{
     navContainer.innerHTML = navbarComponent;
-    cardContainer.innerHTML = crearCards(4);
+    cardContainer.innerHTML = crearCards(5);
     document.title = 'MiTienda';
 })

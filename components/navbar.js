@@ -3,6 +3,8 @@ const navElement = [
     {title:'Componentes de PC', link:'../ComponentesPC/componentesPC.html'},
     {title:'Teléfonos', link:'../Telefonos/telefonos.html'},
     {title:'Accesorios', link:'../Accesorios/accesorios.html'},
+    {title:'Notificaciones', link:'../Notificaciones/notificaciones.html'},
+
 ];
 
 
