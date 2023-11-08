@@ -46,6 +46,30 @@
         "imagen": "https://http2.mlstatic.com/D_NQ_NP_905354-MLA69965826597_062023-O.webp",
         "descripcion": "Momentos únicos, capturas reales. Capturá tus mejores momentos y revivilos cuando quieras con la cámara trasera de 8 Mpx.",
         "precio": "44699"
+    },
+    {
+        "id": "7",
+        "titulo": "Soporte De Escritorio ara Montar Notebook",
+        "categoria": "accesorios",
+        "imagen": "https://http2.mlstatic.com/D_NQ_NP_2X_870096-MLA49077195690_022022-F.webp",
+        "descripcion": "Ideal para colocar en soporte NS-SOTVEB, NS-SOTVE1 o NS-SOTVE2 y otros soportes similares. Con calce seguro y un precinto de ajuste para evitar la notebook se caiga. De tamaño regulable para adaptarse a la mayoría de las notebooks del mercado",
+        "precio": "35747"
+    },
+    {
+        "id": "8",
+        "titulo": "Micrófono Redragon Blazar Gm300 Condenser Streaming",
+        "categoria": "accesorios",
+        "imagen": "https://http2.mlstatic.com/D_NQ_NP_861524-MLA43404187922_092020-O.webp",
+        "descripcion": "Material: Metal. Unidad de micrófono: Condensador cardioide de 16 mm. Dirección: Unidireccional. Sensibilidad: -45 3dB. Respuesta de frecuencia: 20Hz-20kHz. Conexión: USB Plug and Play. Longitud del cable: 1.7 m. Indicador Led: Anillo color rojo/Indica mute",
+        "precio": "55199"
+    },
+    {
+        "id": "9",
+        "titulo": "Logitech Rally V354 - Negro",
+        "categoria": "accesorios",
+        "imagen": "https://http2.mlstatic.com/D_NQ_NP_2X_616738-MLA50219299652_062022-F.webp",
+        "descripcion": "La cámara web Logitech Rally 4K 30FPS en color negro es la solución perfecta para tus videoconferencias y reuniones virtuales en Argentina. Con su resolución máxima de video de 3840 px x 2160 px y 4K, disfrutarás de imágenes nítidas y claras en cada llamada. Gracias a sus interfaces USB-C 3.0, la conexión es rápida y sencilla. La tecnología Logitech RightLight ajusta automáticamente la iluminación para que siempre te veas bien",
+        "precio": "1349000"
     }
 
 ]
