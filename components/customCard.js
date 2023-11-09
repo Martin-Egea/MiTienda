@@ -5,7 +5,7 @@
  */
 //let linkImagen = document.getElementById('linkIMG').value;
 
-export const customCard = (title, img, desc, price) => {
+export const customCard = (title, img, desc, price, id, cat) => {
     return `
     <div class="cardCustom">
         <h3>${title}</h3>
@@ -14,12 +14,12 @@ export const customCard = (title, img, desc, price) => {
             <p>${desc}</p>
         </div>
         <div class="card-footer">
-            <p class="price">${price}</p>
+            <p class="price">$${price}</p>
             <div>
                 <label>Cantidad:</label>
-                <input type="number" name="" id="" min="0" max="10">
+                <input type="number" name="" id="${cat+id}" min="0" max="10">
             </div>
-            <button class="btn-add">Agregar</button>            
+            <button class="btn-add botones-agregar" id="${id}">Agregar</button>            
         </div>
     </div>
     `
@@ -38,14 +38,14 @@ export function crearCardsJSON(tipoProducto){
     let arrayCards = ""
     if(tipoProducto === ""){        
         items.forEach(e => {
-            arrayCards += customCard(e.titulo, e.imagen, e.descripcion, e.precio)
+            arrayCards += customCard(e.titulo, e.imagen, e.descripcion, e.precio, e.id, e.categoria)
         })
         return arrayCards;
     }
     else{
         const prod = items.filter(e => e.categoria == tipoProducto)
         prod.forEach(e => {
-            arrayCards += customCard(e.titulo, e.imagen, e.descripcion, e.precio)
+            arrayCards += customCard(e.titulo, e.imagen, e.descripcion, e.precio, e.id, e.categoria)
         })
         return arrayCards;
     }
