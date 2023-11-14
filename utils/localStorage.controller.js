@@ -5,8 +5,7 @@ export const getData = (key) => {
 
 export const setData = (key,arr) =>{
     try {
-        localStorage.setItem(key, JSON.stringify(arr))
-        console.log('nuevo item')
+        localStorage.setItem(key, JSON.stringify(arr))        
     } catch (error) {
         console.log(error)
     }

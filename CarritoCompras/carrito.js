@@ -21,7 +21,7 @@ function agregarProdTabla(){
     let listaProductos = "";
     const productosLS = JSON.parse(localStorage.getItem('carritoCompras'));
     productosLS.forEach(e => {
-        listaProductos += prodCarrito(e.titulo, e.precio, 1, e.precio, e.id);        
+        listaProductos += prodCarrito(e.titulo, e.precio, e.cantidad, (e.cantidad * e.precio), e.id);        
     });
     return listaProductos
 }
