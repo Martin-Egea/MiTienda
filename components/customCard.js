@@ -17,7 +17,7 @@ export const customCard = (title, img, desc, price, id, cat) => {
             <p class="price">$${price}</p>
             <div>
                 <label>Cantidad:</label>
-                <input type="number" class="input-cant-productos" id="${id}" min="0" max="10">
+                <input type="number" class="input-cant-productos" id="${id}" value="1" min="0" max="10">
             </div>
             <button class="btn-add botones-agregar" id="${id}">Agregar</button>            
         </div>
