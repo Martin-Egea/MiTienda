@@ -29,7 +29,7 @@ function sumarTotalProductos(){
     let precioTotal = 0;
     const productosLS = JSON.parse(localStorage.getItem('carritoCompras'));
     productosLS.forEach(e => {
-        precioTotal += parseInt(e.precio*(e.cantidad != NaN? e.cantidad : 1));        
+        precioTotal += parseInt(e.precio*e.cantidad);        
     });
     return precioTotal;
 }
