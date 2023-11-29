@@ -1,4 +1,4 @@
-import { getData, setData} from "../utils/localStorage.controller.js";
+import { getData, setData, deleteData} from "../utils/localStorage.controller.js";
 
 const prodCarrito = (producto, precio, cantidad, subTotal, id)=>{
     return `
@@ -15,7 +15,7 @@ const prodCarrito = (producto, precio, cantidad, subTotal, id)=>{
 let tablaProductos = document.getElementById('tablaProductos');
 let botonesEliminar = document.querySelectorAll('.botones-eliminar');
 let totalProductos = document.getElementById('totalCarrito');
-
+let botonConfirmar = document.getElementById('btnConfirmar');
 
 function agregarProdTabla(){
     let listaProductos = "";
@@ -48,6 +48,11 @@ window.addEventListener('load', ()=> {
             setData('carritoCompras',items)
             location. reload()
         })
+      })
+    
+      botonConfirmar.addEventListener('click', e =>{
+        window.location.href='../Home/home.html';
+        deleteData('carritoCompras');        
       })
 })
 

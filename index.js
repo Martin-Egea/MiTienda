@@ -1,9 +1,10 @@
 import { navbarComponent } from "./components/navbar.js"
 import { crearCardsJSON, customCard } from "./components/customCard.js"
 import { getData, setData, deleteData } from "./utils/localStorage.controller.js";
-
+import { customFooter } from "./components/footer.js";
 
 let navContainer = document.querySelector('header');
+let footerContainer = document.querySelector('footer');
 let cardContainer = document.getElementById('customCardHTML');
 let categoria = document.getElementById('tipoDeProducto').value;
 
@@ -15,6 +16,7 @@ window.addEventListener('load', ()=>{
         localStorage.setItem('productosLS',JSON.stringify(data))
       });
     navContainer.innerHTML = navbarComponent;
+    footerContainer.innerHTML = customFooter;
     cardContainer.innerHTML = crearCardsJSON(categoria);
         
     actualizarBotonesAgregar();
