@@ -1,7 +1,7 @@
 export const customFooter = `
-    <div class="text-center text-md-left">
+    <div class="container text-center text-md-left">
         <div class="row text-center text-md-left">
-            <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
+            <div class="col-md-4 col-lg-4 col-xl-4 mx-auto mt-3">
                 <h5 class="text-uppercase mb-4 font-weight-bold text-info">Mi Tienda online</h5>
                 <p>Proyecto integrador de una e-commerce, para la compra de productos tecnologicos
                     de la materia Aplicaciones Web 1 </p>
@@ -17,7 +17,7 @@ export const customFooter = `
                 
             </div>
 
-            <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mt-3">
+            <div class="col-md-5 col-lg-4 col-xl-4 mx-auto mt-3">
                 <h5 class="text-uppercase mb-4 font-weight-bold text-info">Contacto</h5>
                 <div class="text-center">
                     <p><i class="fas fa-envelope mr-3"></i> mar_egea@hotmail.com</p>
@@ -30,40 +30,41 @@ export const customFooter = `
             <hr class="mb-4">
 
             <div class="container">
-                <div class="row justify-content-center">
-                    <div class="justify-content-left">
+                <div class="row align-items-center">
+                    <div class="col-md-7 col-lg-8">
                         <p>
                             Copyright ©2023 Todos los derechos reservados.
                         </p>
                     </div>
-                </div>
-
-                <div class="justify-content-left">
-                    <div class="text-right text-md-right">
-                        <ul class="list-unstyled list-inline">
-                            <li class="list-inline-item">
-                                <a href="https://github.com/Martin-Egea" target="_blank" class="btn-floating btn-sm text-white" style="font-size: 23px;">
-                                    <i class="fa-brands fa-github"></i>
-                                </a>
-                            </li>
-                            <li class="list-inline-item">
-                                <a href="https://www.linkedin.com/in/martin-egea/" target="_blank" class="btn-floating btn-sm text-white" style="font-size: 23px;">
-                                    <i class="fa-brands fa-linkedin"></i>
-                                </a>
-                            </li>
-                            <li class="list-inline-item">
-                                <a href="https://www.instagram.com/martin.egea.9/?next=%2F" target="_blank" class="btn-floating btn-sm text-white" style="font-size: 23px;">
-                                    <i class="fa-brands fa-instagram"></i>
-                                </a>
-                            </li>
-                            <li class="list-inline-item">
-                                <a href="https://www.facebook.com/martin.egea.9/" target="_blank" class="btn-floating btn-sm text-white" style="font-size: 23px;">
-                                    <i class="fa-brands fa-facebook-f"></i>
-                                </a>
-                            </li>
-                        </ul>
+                    <div class="col-md-5 col-lg-4">
+                        <div class="text-center text-md-right">
+                            <ul class="list-unstyled list-inline">
+                                <li class="list-inline-item">
+                                    <a href="https://github.com/Martin-Egea" target="_blank" class="btn-floating btn-sm text-white" style="font-size: 23px;">
+                                        <i class="fa-brands fa-github"></i>
+                                    </a>
+                                </li>
+                                <li class="list-inline-item">
+                                    <a href="https://www.linkedin.com/in/martin-egea/" target="_blank" class="btn-floating btn-sm text-white" style="font-size: 23px;">
+                                        <i class="fa-brands fa-linkedin"></i>
+                                    </a>
+                                </li>
+                                <li class="list-inline-item">
+                                    <a href="https://www.instagram.com/martin.egea.9/?next=%2F" target="_blank" class="btn-floating btn-sm text-white" style="font-size: 23px;">
+                                        <i class="fa-brands fa-instagram"></i>
+                                    </a>
+                                </li>
+                                <li class="list-inline-item">
+                                    <a href="https://www.facebook.com/martin.egea.9/" target="_blank" class="btn-floating btn-sm text-white" style="font-size: 23px;">
+                                        <i class="fa-brands fa-facebook-f"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
                     </div>
                 </div>
+
+                
             </div> 
         </div>
     </div>
