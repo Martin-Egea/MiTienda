@@ -12,18 +12,24 @@
   background-color: #333a3f;
   border-radius: 20px;
   box-shadow: -11px 10px 5px 0px rgba(0, 0, 0, 0.37);
+  position: relative;
 }
 .cardCustom img {
   width: 100%;
 }
 .cardCustom .desc {
   margin-top: 2rem;
+  margin-bottom: 1rem;
   font-size: smaller;
 }
 .cardCustom .card-footer {
   display: flex;
   margin-top: 1rem;
+  margin-bottom: 5px;
   justify-content: space-between;
+  position: absolute;
+  bottom: 0;
+  width: 80%;
 }
 
 .btn-add {

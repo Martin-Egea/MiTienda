@@ -4,6 +4,7 @@
     background-color: $color-sec;
     border-radius: 20px;
     box-shadow: -11px 10px 5px 0px rgba(0, 0, 0, 0.37);
+    position: relative;
 
     img{
         width: 100%;
@@ -11,12 +12,17 @@
 
     .desc{
         margin-top: 2rem;
+        margin-bottom: 1rem;
         font-size: smaller;
     }
 
     .card-footer{
         display: flex;
         margin-top: 1rem;
+        margin-bottom: 5px;
         justify-content: space-between;
+        position: absolute;
+        bottom: 0;
+        width: 80%;
     }
 }
