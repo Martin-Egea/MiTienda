@@ -9,7 +9,7 @@ const navElement = [
 
 
 export const navbarComponent = `
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top">
         <div class="container-fluid">
             <a href="#" class="navbar-grand"><img width="50" src="https://t4.ftcdn.net/jpg/05/11/40/43/240_F_511404377_HiSaHkQZ00nPFA0cnsqu1hVaobNpFAlD.jpg" alt=""></a>
 
