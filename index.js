@@ -43,7 +43,7 @@ window.addEventListener('load', ()=>{
             text: "Producto agregado al carrito!",
             duration: 3000,
             destination: "../CarritoCompras/carrito.html",
-            newWindow: true,
+            newWindow: false,
             close: true,
             gravity: "bottom", // `top` or `bottom`
             position: "left", // `left`, `center` or `right`
