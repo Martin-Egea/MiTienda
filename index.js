@@ -37,7 +37,23 @@ window.addEventListener('load', ()=>{
           const newItem = getData('productosLS').find(e => e.id == idProducto)
           newItem.cantidad = cantProducto;               
           item.push(newItem)          
-          setData('carritoCompras', item)          
+          setData('carritoCompras', item)
+                 
+          Toastify({
+            text: "Producto agregado al carrito!",
+            duration: 3000,
+            destination: "../CarritoCompras/carrito.html",
+            newWindow: true,
+            close: true,
+            gravity: "bottom", // `top` or `bottom`
+            position: "left", // `left`, `center` or `right`
+            stopOnFocus: true, // Prevents dismissing of toast on hover
+            style: {
+              background: "linear-gradient(to right, #00b09b, #96c93d)",
+            },
+            onClick: function(){} // Callback after click
+          }).showToast();
+
       })
     })
 

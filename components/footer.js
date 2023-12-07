@@ -13,6 +13,7 @@ export const customFooter = `
                     <p><a href="https://getbootstrap.com/" target="_blank" style="text-decoration: none;">Bootstrap 5</a></p>
                     <p><a href="https://fontawesome.com/" target="_blank" style="text-decoration: none;">Font-Awesome</a></p>
                     <p><a href="https://github.com/" target="_blank" style="text-decoration: none;">GitHub</a></p>
+                    <p><a href="https://apvarun.github.io/toastify-js/#" target="_blank" style="text-decoration: none;">Toastify JS</a></p>
                 </div>
                 
             </div>
